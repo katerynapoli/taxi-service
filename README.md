@@ -19,8 +19,18 @@ A simple web-application that supports authentication, registration and other CR
 - get info about your current car as a driver
 
 ## 💿 Required Software:
-1. IntelliJ Idea (Ultimate Edition)
-2. MySQL Workbench (Optional)
+1. [JDK 19](https://jdk.java.net/19/)
+2. [Apache Maven 3.8](https://maven.apache.org/download.cgi)
+3. [MySQL 8.0.32](https://dev.mysql.com/downloads/mysql/)
+4. [Tomcat 9.0](https://tomcat.apache.org/download-90.cgi)
+5. [IntelliJ Idea](https://www.jetbrains.com/idea/download/#section=mac) (Ultimate Edition)
+6. [MySQL Workbench](https://www.mysql.com/downloads/) (Optional)
+
+## 🤖 Technologies
+1. MySQL
+2. Servlet API
+3. JSP
+4. JDBC API
 
 ## ⚙️ Getting Started:
 1. Copy HTTPS / SSH of the project via clicking on the ```<>Code``` button
@@ -29,17 +39,17 @@ A simple web-application that supports authentication, registration and other CR
 4. Open ```main/resources/init_db.sql``` and copy all the contents
 5.
 - If you are using MySQL Workbench:
-    - Setup new connection (set your username and password, you will need them later)
-    - ```Test Connection```
-    - Open your freshly made connection and paste the contents of the ```init_db.sql``` as a Query
-    - Press ```Execute ⚡️```
-    - After that you will have ready to use Database with all necessary tables
+  - Setup new connection (set your username and password, you will need them later)
+  - ```Test Connection```
+  - Open your freshly made connection and paste the contents of the ```init_db.sql``` as a Query
+  - Press ```Execute ⚡️```
+  - After that you will have ready to use Database with all necessary tables
 - If you are using ```Database``` tab in IntelliJ Idea:
-    - Press ```Plus ➕``` and choose MySQL as ```Data Source```
-    - Set your username and password (you will need them later)
-    - ```Test Connection```
-    - Paste the contents of the ```init_db.sql``` as a Query in ```console``` (it will open automatically)
-    - After that you will have ready to use Database with all necessary tables
+  - Press ```Plus ➕``` and choose MySQL as ```Data Source```
+  - Set your username and password (you will need them later)
+  - ```Test Connection```
+  - Paste the contents of the ```init_db.sql``` as a Query in ```console``` (it will open automatically)
+  - After that you will have ready to use Database with all necessary tables
 6. Open ```main/java/taxi/util/ConnectionUtil```
 7. Change the values of constants *USERNAME* and *PASSWORD* to your own (set to your Database earlier)
 8. Click ```Current File ▾``` tab to Select Run/Debug Configuration, then ```Edit Configurations```
